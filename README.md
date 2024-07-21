@@ -25,7 +25,7 @@ from information_schema.TABLES
 where table_schema = 'sakila';
 ```
 
-(resul)[img=img/img1.jpg]
+![result](img/img1.jpg)
 
 ### Задание 2
 
@@ -78,7 +78,7 @@ where p.payment_date >= '2005-07-30' and p.payment_date < date_add('2005-07-30',
 
 Для того чтобы убедиться, что результат запросов не изменился сравним выхлоп в электронных таблицах с формулой "если одно развно другому, то один, иначе ноль":
 
-(result)[img=img/img3.jpg]
+![result](img=img/img3.jpg)
 
 Ну и разумеется посчитаем сколько занял процесс
 ```
